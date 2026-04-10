@@ -139,3 +139,21 @@ https://killercoda.com/sfeir-killercoda/scenario/4-configmap-secrets
 
 Notes:
 Lunch Break
+
+##==##
+
+<!-- .slide: class="bg-blur" -->
+
+<br>
+
+### It's time for the lunch break
+
+<br>
+
+![](pause-circle 'tc-icons feather')<!-- .element: style="--tc-icon-size:300px; --tc-icon-color:var(--light-grey);" -->
+
+<br>
+
+See you in an hour
+
+<!-- .element: class="center" -->
