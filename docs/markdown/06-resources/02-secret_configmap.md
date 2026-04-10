@@ -149,7 +149,7 @@ Notes:
 
 <br>
 
-![](pause-circle 'tc-icons feather')<!-- .element: style="--tc-icon-size:300px; --tc-icon-color:var(--light-grey);" -->
+![sfeir-icons](pause-circle)<!-- .element: style="--icon-size:300px; --icon-color:var(--white);" -->
 
 <br>
 
