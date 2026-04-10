@@ -5,11 +5,12 @@ function schoolSlides() {
   return [
     //
     `${directory}00-TITLE.md`, //
-    `${directory}speaker-jfurgerot.md`, //
-    `${directory}speaker-lalhossri.md`, //
-    `${directory}speaker-btouron.md`, //
-    `${directory}speaker-rtetar.md`, //
-    `${directory}speaker-nlopesrodrigues.md`, //
+    `${directory}speaker-mbodin.md`, //
+    //`${directory}speaker-jfurgerot.md`, //
+    //`${directory}speaker-lalhossri.md`, //
+    //`${directory}speaker-btouron.md`, //
+    //`${directory}speaker-rtetar.md`, //
+    //`${directory}speaker-nlopesrodrigues.md`, //
     `${directory}01-intro.md`, //
   ];
 }
