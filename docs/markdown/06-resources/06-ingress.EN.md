@@ -62,8 +62,7 @@ Here is an Ingress resource that exposes the school application through the URL 
 * **path:** Allows managing sub-paths (/api redirected to the api microservice).
 * **backend:** Specifies the service to which traffic should be redirected.
 
-Notes: 
-Presentation Nicolas
+Notes:
 
 ##==##
 
@@ -212,5 +211,3 @@ spec:
 | Recommendation | Migrate to Gateway API | Official successor to Ingress |
 
 Notes:
-The Gateway API is installed separately via its CRDs: it is not included in Kubernetes by default.
-Popular implementations: Cilium, Envoy Gateway, Istio, Nginx, Traefik, Kong, GKE.

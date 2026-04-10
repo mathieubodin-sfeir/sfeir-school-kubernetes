@@ -44,5 +44,4 @@ With kubectl, it is possible to display labels
 
 ![center h-600](./assets/images/labels-filter.png)
 
-Notes: 
-Presentation Rémi
+Notes:

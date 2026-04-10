@@ -27,7 +27,6 @@
 <!-- .element: class="credits" -->
 
 Notes:
-Parler à minima des pods pour permettre de répondre à la question du quizz
 
 Kubernetes réecrit en Go par les Googlers
 
@@ -85,7 +84,6 @@ Lors de montée de version, l'api de kubernetes est enrichie, et rares sont les 
 - **Écosystème riche** : Énormément d'outils/extensions et communauté active.
 
 Notes:
-Orchestration de containers dans un cluster de machines
 
 “barreur d'un navire” en grec
 

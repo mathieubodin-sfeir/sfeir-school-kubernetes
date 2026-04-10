@@ -2,5 +2,4 @@
 
 # Les volumes
 
-Notes: 
-Presentation Nicolas
+Notes:

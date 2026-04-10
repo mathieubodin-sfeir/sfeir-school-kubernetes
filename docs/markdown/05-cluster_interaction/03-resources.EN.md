@@ -3,7 +3,6 @@
 # Resources
 
 Notes:
-Configuration files - Written in YAML or JSON, these files describe the desired state of your application in terms of Kubernetes API objects. A file can include one or more API object descriptions (manifests). (See the example YAML from the stateless app).
 
 Configuration file: written in yaml or json, this file describes the desired state of a Kubernetes resource. In a file, one or more object descriptions can be included
 

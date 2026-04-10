@@ -44,5 +44,4 @@ Avec kubeclt, il est possible d'afficher les labels
 
 ![center h-600](./assets/images/labels-filter.png)
 
-Notes: 
-Presentation Rémi
+Notes:

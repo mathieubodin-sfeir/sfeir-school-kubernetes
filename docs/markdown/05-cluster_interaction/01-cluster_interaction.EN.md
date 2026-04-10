@@ -10,7 +10,6 @@ Kubernetes command-line client written in Go that interacts with the Kubernetes 
 * A context is a combination of cluster + user.
 
 Notes:
-Like Docker, Kubernetes works in client-server mode.
 
 The client is called "kubectl" and calls a cluster component called apiserver.
 
@@ -221,5 +220,4 @@ How do you get detailed information about a service named "my-service"?
 https://killercoda.com/sfeir-killercoda/scenario/1-kubectl
 
 
-Notes: 
-Morning Break
+Notes:

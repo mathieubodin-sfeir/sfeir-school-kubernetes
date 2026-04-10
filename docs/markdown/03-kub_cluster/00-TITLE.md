@@ -3,4 +3,3 @@
 # Le cluster Kubernetes
 
 Notes:
-Presentation Nicolas

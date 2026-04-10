@@ -2,5 +2,4 @@
 
 # Docker Reminders
 
-Notes: 
-Presentation Rémi
+Notes:

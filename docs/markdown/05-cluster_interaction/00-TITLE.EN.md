@@ -2,5 +2,4 @@
 
 # Interacting with a cluster
 
-Notes: 
-Presentation Rémi
+Notes:

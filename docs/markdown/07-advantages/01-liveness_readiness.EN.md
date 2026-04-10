@@ -115,4 +115,3 @@ spec:
 https://killercoda.com/sfeir-killercoda/scenario/3-readiness
 
 Notes:
-Afternoon Break

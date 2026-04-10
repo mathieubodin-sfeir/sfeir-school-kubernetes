@@ -28,7 +28,6 @@ Docker is a containerization platform that allows you to create, deploy and run 
 * Containers are immutable, unlike VMs.
 
 Notes:
-Docker advantages:
 
 efficient resource sharing
 

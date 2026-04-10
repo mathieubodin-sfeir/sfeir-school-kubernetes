@@ -10,7 +10,6 @@ Client Kubernetes en ligne de commande écrit en go et interagissant avec l'api 
 * Un contexte est un ensemble contenant cluster + utilisateur.
 
 Notes:
-Comme Docker, Kubernetes s’utilise en mode client-server.
 
 Le client s’appelle “
 kubectl
@@ -233,5 +232,4 @@ Comment obtenez-vous des informations détaillées sur un service nommé "my-ser
 https://killercoda.com/sfeir-killercoda/scenario/1-kubectl
 
 
-Notes: 
-BReak Matin
+Notes:

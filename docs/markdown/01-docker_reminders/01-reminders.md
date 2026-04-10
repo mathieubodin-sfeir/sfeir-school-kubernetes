@@ -28,7 +28,6 @@ Docker est une plateforme de conteneurisation qui permet de créer, déployer et
 * Les conteneurs sont immuables, contrairement aux VMs.
 
 Notes:
-Avantages de Docker :
 
 permet un partage des ressources efficace
 

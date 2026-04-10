@@ -13,7 +13,6 @@ A Kubernetes cluster consists of at least one control plane and one worker node.
 * **Worker node**: Their role is to host applications and be reachable from the outside.
 
 Notes:
-A cluster is a set of machines that collaborate with each other.
 
 In Kubernetes, we distinguish the master from the nodes.
 
@@ -36,7 +35,6 @@ The control plane maintains the desired state of the cluster, being responsible 
 * **kube-controller-manager:** Manages all controllers in the cluster.
 
 Notes:
-The master is responsible for most of the "control" (control plane) of the cluster.
 
 Nodes are responsible for running applications.
 
@@ -62,7 +60,6 @@ The worker node allows application pods to be started through communication with
 * **container-runtime:** Agent responsible for pulling images, starting containers and allocating resources to them.
 
 Notes:
-Nodes run applications packaged in containers grouped into "Pods".
 
 Pod execution is managed by kubelet.
 
@@ -89,12 +86,6 @@ It is the smallest deployable resource in Kubernetes, containing one or more con
 * **Management:** They are generally managed by higher-level controllers (deployment, statefulset or daemonset).
 
 Notes:
-Pod:
-1 or more containers
-usually just one
-sharing:
-a single IP
-one or more volumes
 
 ##==##
 

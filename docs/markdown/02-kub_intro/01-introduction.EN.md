@@ -27,7 +27,6 @@
 <!-- .element: class="credits" -->
 
 Notes:
-Briefly mention pods to be able to answer the quiz question
 
 Kubernetes rewritten in Go by Googlers
 
@@ -69,7 +68,6 @@ When upgrading, the Kubernetes API is enriched, and API endpoints are rarely rem
 - **Rich ecosystem**: Enormous number of tools/extensions and an active community.
 
 Notes:
-Container orchestration in a cluster of machines
 
 "helmsman of a ship" in Greek
 
