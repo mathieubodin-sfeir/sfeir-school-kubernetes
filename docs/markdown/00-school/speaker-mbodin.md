@@ -13,6 +13,6 @@
 
 <h2> Mathieu <span>BODIN</span></h2>
 
-### Linux Foundation Trainer
+### Formateur autorisé par la Linux Foundation
 
 <!-- .element: class="icon-rule icon-first" -->
