@@ -11,8 +11,8 @@ A [SFEIR School](https://www.sfeir.com/fr/le-contenus-dexperts-de-la-technologie
 
 ## Slides
 
-Les slides sont disponibles ici (français) : [Sfeir School Kubernetes](https://mathieubodin-sfeir.github.io/sfeir-school-kubernetes/)
-
-Les slides sont disponibles ici (english) : [Sfeir School Kubernetes](https://mathieubodin-sfeir.github.io/sfeir-school-kubernetes/?data-lang=EN)
+Les slides sont disponibles ici :
+- [Français](https://mathieubodin-sfeir.github.io/sfeir-school-kubernetes/)
+- [English](https://mathieubodin-sfeir.github.io/sfeir-school-kubernetes/?data-lang=EN)
 
 Les Slides sont derrière une license [CC BY ND 3.0](https://github.com/sfeir-open-source/sfeir-school-kubernetes/blob/master/docs/LICENSE)
