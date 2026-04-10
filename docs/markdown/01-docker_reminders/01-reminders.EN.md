@@ -29,16 +29,6 @@ Docker is a containerization platform that allows you to create, deploy and run 
 
 Notes:
 
-efficient resource sharing
-
-simpler management of varied runtime environments
-
-Full VM advantages:
-
-GUARANTEED isolation since there is no communication between the host and the virtual machine
-
-easier access to hardware
-
 ##==##
 
 <!-- .slide:-->

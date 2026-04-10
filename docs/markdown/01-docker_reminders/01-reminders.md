@@ -29,16 +29,6 @@ Docker est une plateforme de conteneurisation qui permet de créer, déployer et
 
 Notes:
 
-permet un partage des ressources efficace
-
-plus simple pour gérer des environnements d’exécution variés
-
-Avantages des full VMs :
-
-isolation GARANTIE puisqu’il n’y a aucune communications entre l'hôte et la machine virtuelle
-
-accès au matériel plus simple
-
 ##==##
 
 <!-- .slide:-->
