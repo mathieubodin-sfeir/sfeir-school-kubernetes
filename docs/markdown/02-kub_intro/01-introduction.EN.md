@@ -27,7 +27,6 @@
 <!-- .element: class="credits" -->
 
 Notes:
-
 ##==##
 ## Introduction > **Versions (semver)**
 Kubernetes uses semantic versioning (x.y.z) for its releases
@@ -60,9 +59,6 @@ When upgrading, the Kubernetes API is enriched, and API endpoints are rarely rem
 - **Rich ecosystem**: Enormous number of tools/extensions and an active community.
 
 Notes:
-
-"helmsman of a ship" in Greek
-
 ##==##
 
 <!-- .slide: class="exercice" -->

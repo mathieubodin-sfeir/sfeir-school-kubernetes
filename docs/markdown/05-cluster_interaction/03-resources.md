@@ -3,9 +3,6 @@
 # Les ressources
 
 Notes:
-
-Fichier de configuration : écrit en yaml ou json, ce fichier décrit l’état désiré d’une ressource Kubernetes. Dans un fichier, on peut inclure une ou plusieurs descriptions d’objets
-
 ##==##
 
 <!-- .slide: class="with-code-bg-dark" -->

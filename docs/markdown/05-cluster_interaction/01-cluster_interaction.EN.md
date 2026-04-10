@@ -10,15 +10,6 @@ Kubernetes command-line client written in Go that interacts with the Kubernetes 
 * A context is a combination of cluster + user.
 
 Notes:
-
-The client is called "kubectl" and calls a cluster component called apiserver.
-
-kubectl integrates a mechanism to install command auto-completion in bash and zsh
-
-We also have access to command docs and the resource format with the help and explain subcommands.
-
-… detailed in the following sections
-
 ##==##
 
 <!-- .slide: class="with-code-bg-dark" -->

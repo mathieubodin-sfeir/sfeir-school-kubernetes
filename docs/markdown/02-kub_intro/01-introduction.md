@@ -27,7 +27,6 @@
 <!-- .element: class="credits" -->
 
 Notes:
-
 ##==##
 ## Introduction > **Les versions (semver)**
 Pour nommer ses versions, Kubernetes utilise du semantic versioning (x.y.z)
@@ -60,9 +59,6 @@ Lors de montée de version, l'api de kubernetes est enrichie, et rares sont les 
 - **Écosystème riche** : Énormément d'outils/extensions et communauté active.
 
 Notes:
-
-“barreur d'un navire” en grec
-
 ##==##
 
 <!-- .slide: class="exercice" -->

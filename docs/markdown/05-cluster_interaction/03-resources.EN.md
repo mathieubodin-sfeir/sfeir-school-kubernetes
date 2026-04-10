@@ -3,9 +3,6 @@
 # Resources
 
 Notes:
-
-Configuration file: written in yaml or json, this file describes the desired state of a Kubernetes resource. In a file, one or more object descriptions can be included
-
 ##==##
 
 <!-- .slide: class="with-code-bg-dark" -->

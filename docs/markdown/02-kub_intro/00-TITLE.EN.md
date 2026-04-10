@@ -3,5 +3,3 @@
 # Kubernetes: introduction
 
 Notes:
-
-Presentation Nicolas

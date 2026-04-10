@@ -10,27 +10,6 @@ Client Kubernetes en ligne de commande écrit en go et interagissant avec l'api 
 * Un contexte est un ensemble contenant cluster + utilisateur.
 
 Notes:
-
-Le client s’appelle “
-kubectl
-” et appelle un composant du cluster appellé
-apiserver
-.
-
-kubectl intègre un mécanisme pour installer l’auto-completion des commandes dans bash et zsh
-
-On a aussi accès à la
-doc des commandes
-et au
-format des ressources
-avec les sous-commandes
-help
-et
-explain
-.
-
-… détaillé dans la suite
-
 ##==##
 
 <!-- .slide: class="with-code-bg-dark" -->

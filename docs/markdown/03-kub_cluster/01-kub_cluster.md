@@ -13,9 +13,6 @@ Un cluster Kubernetes est composé à minima d'un control plane, et d'un worker 
 * **Worker node** : Ils ont pour rôle d'héberger les applications et d'être joignables de l'exterieur.
 
 Notes:
-
-Sur Kubernetes, on distingue le master des nœuds (nodes).
-
 ##==##
 
 <!-- .slide: class="two-column" -->
@@ -35,13 +32,6 @@ Le control plane a pour but de maintenir l'état désiré du cluster, en étant 
 * **kube-controller-manager:** Gère tous les controllers du cluster.
 
 Notes:
-
-Les nœuds (nodes) sont responsables de l’exécution des applications.
-
-Les fonctions de master et de node sont habituellement déployées sur des machines différentes.
-
-En dev ces deux fonctions peuvent être déployées sur une unique machine (ex: Minikube)
-
 ##==##
 
 <!-- .slide: class="two-column" -->
@@ -60,14 +50,6 @@ Le worker node a pour but de permettre aux pods applicatifs d'être démarrés g
 * **container-runtime:** Agent responsable du pull des images, de lancer les conteneurs et leur allouer des ressources.
 
 Notes:
-
-L’exécution des Pods est gérée par les kubelet.
-
-Kubelet est un process qui pilote le moteur de containeurs
-respectant le CRI (Container Runtime Interface)
-ex:
-(Docker engines, CRI-O, Containerd)
-
 ##==##
 
 <!-- .slide:-->
@@ -88,7 +70,6 @@ C'est la plus petite ressource déployable sur Kubernetes, contenant un ou plusi
 * **Gestion:** Généralement, ils sont gérés par des controllers de plus haut niveau (déploiement, statefulset ou daemonset).
 
 Notes:
-
 ##==##
 
 <!-- .slide:-->
