@@ -17,9 +17,9 @@
 <!-- .slide:-->
 
 # School Kubernetes > **Training materials**
-<https://github.com/sfeir-open-source/sfeir-school-kubernetes>
+<https://github.com/mathieubodin-sfeir/sfeir-school-kubernetes>
 
-<https://sfeir-open-source.github.io/sfeir-school-kubernetes/#/>
+<https://mathieubodin-sfeir.github.io/sfeir-school-kubernetes/?data-lang=EN>
 
 <https://killercoda.com/sfeir-killercoda/>
 
