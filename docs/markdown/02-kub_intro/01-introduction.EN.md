@@ -28,14 +28,6 @@
 
 Notes:
 
-Kubernetes rewritten in Go by Googlers
-
-Donated to the Cloud Native Computing Foundation in 2015
-
-Kubernetes is just one tool among all the tools that can help you build "Cloud-Native" architectures
-
-The Linux Foundation is a non-profit consortium founded on January 21, 2007, whose mission is to protect and standardize Linux by providing centralized resources and services; the Linux Foundation has 70 members.
-
 ##==##
 ## Introduction > **Versions (semver)**
 Kubernetes uses semantic versioning (x.y.z) for its releases

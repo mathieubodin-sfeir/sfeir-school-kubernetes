@@ -28,30 +28,6 @@
 
 Notes:
 
-Kubernetes réecrit en Go par les Googlers
-
-Offert à la Cloud Native Computing Foundation en 2015
-
-Kubernetes n’est qu’un outils parmi tous les outils pouvant vous aider à créer des architectures “
-Cloud-Natives
-”
-
-La
-Fondation Linux
-(en anglais
-Linux Foundation
-) est un
-consortium
-à but non lucratif fondé le
-21
-
-janvier
-
-2007
-, a pour mission de protéger et standardiser
-Linux
-en procurant les ressources et services centralisés, la Linux Foundation regroupe 70 membres.
-
 ##==##
 ## Introduction > **Les versions (semver)**
 Pour nommer ses versions, Kubernetes utilise du semantic versioning (x.y.z)
