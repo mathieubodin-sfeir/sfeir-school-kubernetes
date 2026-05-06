@@ -24,3 +24,8 @@
 /.angular-cli.json
 /package-lock.json
 /yarn.lock
+
+# vendored and generated content
+docs/web_modules/
+docs/node_modules/
+docs/css/
