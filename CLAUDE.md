@@ -1,0 +1,1 @@
+/Users/mbodin/Documents/Formations/SFEIRSchools/Kubernetes/github.com/mathieubodin-sfeir/sfeir-school-kubernetes/AGENTS.md

@@ -4,47 +4,17 @@
 
 A RevealJS slide deck for a SFEIR School Kubernetes training course. All content is in **French**. Exercises are hosted externally on killercoda.com — no local lab files exist.
 
-## Preferred: use the built-in `serve-presentation` tool to run the presentation
+## Commands
 
-Use the `serve-presentation` tool (available in this OpenCode session) to start the presentation server. It defaults to port **3000** and the `docs/` directory:
+Use only the Makefile targets:
 
-```
-serve-presentation tool → port: 3000, directory: docs
-```
-
-The server URL will be returned by the tool.
-
-## Fallback: run commands from `docs/`, not the repo root
-
-The root directory has no `package.json`. All npm commands must be run from `docs/`.
-
-```sh
-cd docs && npm install   # also auto-runs prepare (populates web_modules/)
-cd docs && npm start     # dev server on port 4242 + SCSS watch (live-server + sass in parallel)
-cd docs && npm run serve # serve only, no SCSS watch
-cd docs && npm run sass-once  # compile SCSS once -> css/slides.css
-```
-
-Docker alternative (port 3000, no live reload):
-```sh
-cd docs && docker compose up
-```
-
-## web_modules/ must exist before the site works
-
-`npm install` auto-runs `npm run prepare`, which copies `sfeir-school-theme` from `node_modules/` into `web_modules/`. If `web_modules/` is missing or stale, run:
-```sh
-cd docs && npm run prepare
-```
-Do **not** edit `docs/scripts/dont-touch/prepare-script.js`.
-
-## No tests, no linter, no typecheck
-
-`npm test` always exits 1 by design. The only code quality tool is **Prettier**:
-- Config: `.prettierrc` — single quotes, 120 print width
-- Applies to: `*.{json,css,scss,md,js,ts}`
-- Runs automatically on staged files via `lint-staged` (on commit)
-- To format manually: `npx prettier --write <file>`
+- `make install`  : Install dependencies and populate web_modules/
+- `make dev`      : Start dev server with live reload + SCSS watch (port 4242)
+- `make serve`    : Start presentation server only, no SCSS watch (port 4242)
+- `make css`      : Compile SCSS once to docs/css/slides.css
+- `make format`   : Format source files with Prettier (requires prettier on PATH)
+- `make env-check`: Verify required tools are available (node, npm, prettier)
+- `make help`     : Show available targets
 
 ## Slide content conventions
 
@@ -59,10 +29,18 @@ Do **not** edit `docs/scripts/dont-touch/prepare-script.js`.
 
 Dev server runs on **port 4242** (not 3000 or 8080). Docker uses 3000.
 
-## .opencode/ directory
-
-Contains an AI agent plugin (Bun-based `serve` tool). Its `package.json` and lockfile are gitignored and unrelated to the presentation.
-
 ## No CI/CD in this repo
 
-There is no `.github/` directory and no Makefile. No automated workflows.
+There is no `.github/` directory. No automated workflows.
+
+## Compound engineering integration
+
+All files produced by skills related to the compound engineering plugin must be stored in the `.compound-engineering` folder:
+
+| Compound engineering document type | location                          | Read | Write |
+| ---------------------------------- | --------------------------------- | ---- | ----- |
+| Ideation                           | .compound-engineering/ideates     | Yes  | Yes   |
+| Brainstormings                     | .compound-engineering/brainstorms | Yes  | Yes   |
+| Plans                              | .compound-engineering/plans       | Yes  | Yes   |
+| Review                             | .compound-engineering/reviews     | Yes  | Yes   |
+| Solutions                          | .compound-engineering/solutions   | Yes  | Yes   |
