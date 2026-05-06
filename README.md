@@ -12,6 +12,7 @@ A [SFEIR School](https://www.sfeir.com/fr/le-contenus-dexperts-de-la-technologie
 ## Slides
 
 Les slides sont disponibles ici :
+
 - [Français](https://mathieubodin-sfeir.github.io/sfeir-school-kubernetes/)
 - [English](https://mathieubodin-sfeir.github.io/sfeir-school-kubernetes/?data-lang=EN)
 
