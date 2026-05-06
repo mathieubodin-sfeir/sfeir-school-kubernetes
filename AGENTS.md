@@ -4,7 +4,17 @@
 
 A RevealJS slide deck for a SFEIR School Kubernetes training course. All content is in **French**. Exercises are hosted externally on killercoda.com — no local lab files exist.
 
-## Critical: run commands from `docs/`, not the repo root
+## Preferred: use the built-in `serve-presentation` tool to run the presentation
+
+Use the `serve-presentation` tool (available in this OpenCode session) to start the presentation server. It defaults to port **3000** and the `docs/` directory:
+
+```
+serve-presentation tool → port: 3000, directory: docs
+```
+
+The server URL will be returned by the tool.
+
+## Fallback: run commands from `docs/`, not the repo root
 
 The root directory has no `package.json`. All npm commands must be run from `docs/`.
 

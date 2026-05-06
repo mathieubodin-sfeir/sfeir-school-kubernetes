@@ -10,12 +10,12 @@ export default tool({
       .describe("Port to serve on (default: 3000)"),
     directory: tool.schema
       .string()
-      .optional()
-      .describe("Directory to serve (default: project root)"),
+      .default("docs")
+      .describe("Directory to serve (default: docs)"),
   },
   async execute(args, context) {
     const port = args.port
-    const dir = args.directory || context.directory
+    const dir = args.directory || "docs"
 
     const proc = Bun.spawn(["npx", "serve", dir, "-l", String(port)], {
       stdout: "pipe",
@@ -31,10 +31,19 @@ export default tool({
       return `Failed to start server: ${stderr}`
     }
 
+    let hostname = "localhost"
+    try {
+      const configPath = `${Bun.env.HOME}/.config/opencode/opencode.json`
+      const config = JSON.parse(await Bun.file(configPath).text())
+      hostname = config?.server?.hostname ?? "localhost"
+    } catch {
+      // fall back to localhost if config is unreadable
+    }
+
     return [
       "Server started in background.",
       `  PID: ${proc.pid}`,
-      `  URL: http://localhost:${port}`,
+      `  URL: http://${hostname}:${port}`,
       `  Directory: ${dir}`,
       "",
       `To stop: kill ${proc.pid}`,
